@@ -1,0 +1,126 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+}
+
+header {
+  background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+  color: LightBlue;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  color: LightBlue;
+}
+
+h2 {
+  color: Black;
+}
+
+.forma, .quali, .supp, .etude, .pro, .salaire, .metier, .question {
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.salaire {
+  font-weight: bold;
+}
+
+.metier a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.metier a:hover {
+  text-decoration: underline;
+}
+
+.lien {
+  margin-top: 1px;
+  text-align: center;
+  color: LightBlue;
+  font-weight: bold;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #333;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  max-width: calc(100% - 200px);
+  margin: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 200px);
+}
